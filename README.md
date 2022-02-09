@@ -1,4 +1,4 @@
-# nuxt-tailwind-starter
+# frontend engineer task
 
 ## Build Setup
 

@@ -1,0 +1,33 @@
+function withOpacity(variableName) {
+  return ({ opacityValue }) => {
+    if (opacityValue !==undefined) {
+      return `hsla(var(${variableName}), ${opacityValue})`
+    }
+    return `hsl(var(${variableName}))`
+  }
+}
+
+module.exports = {
+  purge: [
+    'components/**/*.{vue,js}',
+    'layouts/**/*.vue',
+    'pages/**/*.vue',
+    'plugins/**/*.{js,ts}',
+    'nuxt.config.{js,ts}'
+  ],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    extend: {
+      colors: {
+        "text-base": withOpacity('--color-text-base'),
+        "text-muted": withOpacity('--color-text-muted'),
+        primary: withOpacity('--color-primary'),
+        green: withOpacity('--color-green'),
+      },
+    },
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+}
