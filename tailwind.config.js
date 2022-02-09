@@ -24,6 +24,7 @@ module.exports = {
         "text-muted": withOpacity('--color-text-muted'),
         primary: withOpacity('--color-primary'),
         green: withOpacity('--color-green'),
+        red: withOpacity('--color-red'),
       },
     },
   },

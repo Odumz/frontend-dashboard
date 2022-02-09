@@ -1,7 +1,7 @@
 <template>
-  <div class="flex items-center border-b w-full gap-3 pr-28 py-3">
+  <div class="flex items-center border-b w-full gap-6 pr-28 py-3">
     <div class="button">
-      <button class="flex border rounded py-2 px-3 mx-3">
+      <button class="flex border rounded py-2 px-3">
         <div>
           <img src="../assets/img/zap.svg" alt="zap-icon">
         </div>
