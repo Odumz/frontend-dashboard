@@ -1,5 +1,5 @@
 <template>
-  <div class="flex">
+  <div class="flex items-center w-full pl-28 border-b">
     <div class="menu-items leading-6 text-base flex">
       <div class="pr-3 text-primary">
         <NuxtLink to="/">

@@ -1,20 +1,22 @@
 <template>
-  <div class="px-28">
+  <div class="">
     <div class="md:flex hidden">
-      <div class="w-3/4">
+      <div class="w-2/3 flex justify-start">
         <MainMenu />
       </div>
-      <div class="w-1/4">
+      <div class="w-1/3 flex justify-end">
         <MainSideMenu />
       </div>
     </div>
 
     <div class="md:flex hidden">
-      <div class="w-3/4">
+      <div class="w-2/3 flex justify-start">
         <SubMenu />
       </div>
-      <div class="w-1/4">
+      <div class="w-1/3 flex justify-end">
+      <div class="w-full border-b py-2">
         <Search />
+      </div>
       </div>
     </div>
 

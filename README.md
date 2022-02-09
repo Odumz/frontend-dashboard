@@ -1,6 +1,25 @@
 # frontend engineer task
+## Table of contents
 
-## Build Setup
+- [Overview](#overview)
+  - [Build Setup](#build-setup)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  <!-- - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources) -->
+<!-- - [Author](#author)
+- [Acknowledgments](#acknowledgments) -->
+
+<!-- **Note: Delete this note and update the table of contents based on what sections you keep.** -->
+
+## Overview
+This is a solution to the [Frontend Engineer (VueJS/Nuxt)](https://www.figma.com/file/eXk5QkQgBo89Srz5Gp4NVN/Frontend-Engineer-Task?node-id=1%3A12062) test application. It is a simple task to create a simple VueJS application to test the UI and reasoning skills of a frontend engineer.
+
+### Build Setup
 
 ```bash
 # install dependencies
@@ -17,52 +36,79 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+### The challenge
 
-## Special Directories
+Replicate this [dashboard UI design](https://www.figma.com/file/eXk5QkQgBo89Srz5Gp4NVN/Frontend-Engineer-Task?node-id=0%3A1) using NuxtJS. Push your code to a public Github repository, and host it on a free web hosting platform.
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+Ensure the design replications are pixel perfect, write clean and reusable code where necessary. We do not care too much about functionality, just the UI replication is sufficient.
 
-### `assets`
+### Screenshot
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+[Front-end Test Overview](#)
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+[Lighthouse Test](https://res.cloudinary.com/griffintech/image/upload/v1642066316/Portfolio/Screenshot_from_2022-01-13_10-27-18_aiykjc.png)
 
-### `components`
+### Links
+- Design Link: [Figma Design](https://www.figma.com/file/eXk5QkQgBo89Srz5Gp4NVN/Frontend-Engineer-Task?node-id=1%3A12062)
+- Live Site URL: [Front-end](#)
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+## My process
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+### Built with
 
-### `layouts`
+- Semantic template markup
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vue.js](https://vuejs.org/) - Vue framework
+- [Nuxt.js](https://nuxtjs.org/) - Nuxt.js is a framework for building modern web applications with Vue.js.
 
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+<!-- 
+### What I learned
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
-### `pages`
+To see how you can add code snippets, see below:
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+```html
+<h1>Some HTML code I'm proud of</h1>
+```
+```css
+.proud-of-this-css {
+  color: papayawhip;
+}
+```
+```js
+const proudOfThisFunc = () => {
+  console.log('🎉')
+}
+```
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-### `plugins`
+**Note: Delete this note and the content within this section and replace with your own learnings.**
 
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
+### Continued development
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
+Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
-### `static`
+**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
-This directory contains your static files. Each file inside this directory is mapped to `/`.
+### Useful resources
 
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
+- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept. -->
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
+<!-- **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.** -->
 
-### `store`
+<!-- ## Author
 
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
+- Website - [Add your name here](https://www.your-site.com)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+
+## Acknowledgments
+
+This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+
+**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.** -->

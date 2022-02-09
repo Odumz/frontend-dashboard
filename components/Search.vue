@@ -1,10 +1,12 @@
 <template>
-  <div class="bg-white shadow px-4 p-2 sm:flex mr-4 rounded-md hidden">
-      <span class="w-auto flex justify-end items-center text-gray-500 p-2">
-          <Icon icon="akar-icons:search" />
-      </span>
-      <input v-model="searchText" class="rounded p-2 focus:outline-none" type="text" placeholder="Search here..." @keyup.esc="close" @keyup="filter">
-    </div>
+  <div class="flex items-center">
+    <div class="bg-white shadow px-4 p-2 flex mr-4 rounded-md">
+        <span class="w-auto flex justify-end items-center text-gray-500 p-2">
+            <img src="../assets/img/search.svg" alt="search">
+        </span>
+        <input v-model="searchText" class="rounded p-1 focus:outline-none" type="text" placeholder="Search" @keyup.esc="close" @keyup="filter">
+      </div>
+  </div>
 </template>
 
 <script>

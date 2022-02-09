@@ -8,6 +8,7 @@ function withOpacity(variableName) {
 }
 
 module.exports = {
+  mode: 'jit',
   purge: [
     'components/**/*.{vue,js}',
     'layouts/**/*.vue',

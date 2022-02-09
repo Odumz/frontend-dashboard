@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center">
+  <div class="flex items-center border-b w-full pl-28">
     <div class="logo pr-3 py-3">
       <img src="../assets/img/logo.svg" class="" alt="logo">
     </div>

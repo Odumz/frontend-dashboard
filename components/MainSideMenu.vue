@@ -1,25 +1,23 @@
 <template>
-  <div class="flex">
+  <div class="flex items-center border-b w-full gap-3 pr-28 py-3">
     <div class="button">
-      <button class="border rounded py-2 px-3">
-        <span>
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-</svg>
-        </span>
-        <span>
+      <button class="flex border rounded py-2 px-3 mx-3">
+        <div>
+          <img src="../assets/img/zap.svg" alt="zap-icon">
+        </div>
+        <span class="mx-3">
           Upgrade now
         </span>
       </button>
     </div>
     <div class="gear">
-      <Icon />
+     <img src="../assets/img/gear.svg" alt="settings-icon">
     </div>
     <div class="bell">
-      <Icon />
+      <img src="../assets/img/bell.svg" alt="notifications-icon">
     </div>
     <div class="profile">
-      <img src="" alt="user profile picture">
+      <img src="../assets/img/avatar.svg" alt="user-avatar">
     </div>
   </div>
 </template>
