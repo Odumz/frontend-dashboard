@@ -1,0 +1,19 @@
+/* @import */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --color-text-base: 217.5, 23.5%, 26.7%;
+        --color-text-muted: 217.5, 23.5%, 13%;
+        --color-text-inverted: 79, 70, 229;
+        --color-primary: 258.8, 63.3%, 59.4%;
+        --color-green: 155, 96.8%, 24.3%;
+        --color-secondary-accent: 255, 165, 0;
+        --color-tertiary: 36, 37, 45;
+        --color-tertiary-accent: 0, 186, 124;
+        --color-button-accent-hover: 238, 242, 255;
+        --color-button-muted: 99, 102, 241;
+    }
+}
