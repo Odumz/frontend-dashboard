@@ -1,7 +1,7 @@
 <template>
   <div class="home px-28">
     <WelcomeCard />
-    <div class="flex w-full gap-5">
+    <div class="flex w-full gap-5 my-5">
       <Cards>
         <template #title>
           Total customers
@@ -60,7 +60,7 @@
         </template>
       </Cards>
     </div>
-    <div class="list-filter">
+    <div class="list-filter pt-7">
       <ListFilter />
     </div>
     <div class="list-items">
