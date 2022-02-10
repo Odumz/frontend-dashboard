@@ -10,12 +10,12 @@
           2,420
         </template>
         <template #graph>
-          <img src="../assets/img/total-customers.svg" alt="total-customer-stats">
+          <img src="~/assets/img/total-customers.svg" alt="total-customer-stats">
         </template>
         <template #percentage>
           <p class="flex items-center gap-1 text-green pr-1">
             <span>
-              <img src="../assets/img/arrow-up.svg" alt="">
+              <img src="~/assets/img/arrow-up.svg" alt="">
             </span>
             40 %
           </p>
@@ -29,12 +29,12 @@
           1,210
         </template>
         <template #graph>
-          <img src="../assets/img/members.svg" alt="members">
+          <img src="~/assets/img/members.svg" alt="members">
         </template>
         <template #percentage>
           <p class="flex items-center gap-1 text-red pr-1">
             <span>
-              <img src="../assets/img/arrow-down.svg" alt="">
+              <img src="~/assets/img/arrow-down.svg" alt="">
             </span>
             10 %
           </p>
@@ -48,12 +48,12 @@
           316
         </template>
         <template #graph>
-          <img src="../assets/img/total-customers.svg" alt="total-customer-stats">
+          <img src="~/assets/img/total-customers.svg" alt="total-customer-stats">
         </template>
         <template #percentage>
           <p class="flex items-center gap-1 text-green pr-1">
             <span>
-              <img src="../assets/img/arrow-up.svg" alt="">
+              <img src="~/assets/img/arrow-up.svg" alt="">
             </span>
             20 %
           </p>

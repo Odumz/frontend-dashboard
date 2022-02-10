@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-center border-b border-accent w-full pl-28">
     <div class="logo pr-3 py-3">
-      <img src="../assets/img/logo.svg" class="" alt="logo">
+      <img src="~/assets/img/logo.svg" class="" alt="logo">
     </div>
     <div class="menu-items leading-6 text-base flex">
       <div class="px-3 text-primary">

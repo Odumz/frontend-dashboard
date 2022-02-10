@@ -3,7 +3,7 @@
     <div class="button">
       <button class="flex border rounded py-2 px-3">
         <div>
-          <img src="../assets/img/zap.svg" alt="zap-icon">
+          <img src="~/assets/img/zap.svg" alt="zap-icon">
         </div>
         <span class="mx-3">
           Upgrade now
@@ -11,13 +11,13 @@
       </button>
     </div>
     <div class="gear">
-     <img src="../assets/img/gear.svg" alt="settings-icon">
+     <img src="~/assets/img/gear.svg" alt="settings-icon">
     </div>
     <div class="bell">
-      <img src="../assets/img/bell.svg" alt="notifications-icon">
+      <img src="~/assets/img/bell.svg" alt="notifications-icon">
     </div>
     <div class="profile">
-      <img src="../assets/img/avatar.svg" alt="user-avatar">
+      <img src="~/assets/img/avatar.svg" alt="user-avatar">
     </div>
   </div>
 </template>
