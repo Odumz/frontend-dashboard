@@ -1,5 +1,5 @@
 <template>
-  <div class="home px-28">
+  <div class="home px-28 text-muted">
     <WelcomeCard />
     <div class="flex w-full gap-5 my-5">
       <Cards>
@@ -7,13 +7,13 @@
           Total customers
         </template>
         <template #stats>
-          2345
+          2,420
         </template>
         <template #graph>
           <img src="../assets/img/total-customers.svg" alt="total-customer-stats">
         </template>
         <template #percentage>
-          <p class="flex items-center gap-1 text-green pr-3">
+          <p class="flex items-center gap-1 text-green pr-1">
             <span>
               <img src="../assets/img/arrow-up.svg" alt="">
             </span>
@@ -26,17 +26,17 @@
           Members
         </template>
         <template #stats>
-          2345
+          1,210
         </template>
         <template #graph>
           <img src="../assets/img/members.svg" alt="members">
         </template>
         <template #percentage>
-          <p class="flex items-center gap-1 text-red pr-3">
+          <p class="flex items-center gap-1 text-red pr-1">
             <span>
               <img src="../assets/img/arrow-down.svg" alt="">
             </span>
-            40 %
+            10 %
           </p>
         </template>
       </Cards>
@@ -45,17 +45,17 @@
           Total customers
         </template>
         <template #stats>
-          2345
+          316
         </template>
         <template #graph>
           <img src="../assets/img/total-customers.svg" alt="total-customer-stats">
         </template>
         <template #percentage>
-          <p class="flex items-center gap-1 text-green pr-3">
+          <p class="flex items-center gap-1 text-green pr-1">
             <span>
               <img src="../assets/img/arrow-up.svg" alt="">
             </span>
-            40 %
+            20 %
           </p>
         </template>
       </Cards>

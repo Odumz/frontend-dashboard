@@ -14,7 +14,7 @@
         <SubMenu />
       </div>
       <div class="w-1/3 flex justify-end">
-      <div class="w-full border-b py-2">
+      <div class="w-full border-b border-accent py-2">
         <Search />
       </div>
       </div>

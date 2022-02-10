@@ -20,10 +20,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "text-base": withOpacity('--color-text-base'),
-        "text-muted": withOpacity('--color-text-muted'),
+        "primary-accent": withOpacity('--color-primary-accent'),
+        base: withOpacity('--color-base'),
+        muted: withOpacity('--color-muted'),
+        accent: withOpacity('--color-accent'),
         primary: withOpacity('--color-primary'),
         green: withOpacity('--color-green'),
+        gray: withOpacity('--color-gray'),
         red: withOpacity('--color-red'),
       },
     },

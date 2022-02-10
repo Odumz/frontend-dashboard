@@ -6,8 +6,11 @@
 @layer base {
     :root {
         --color-base: 217.5, 23.5%, 26.7%;
-        --color-muted: 217.5, 23.5%, 3%;
+        --color-muted: 217.5, 23.5%, 33%;
+        --color-accent: 217.5, 23.5%, 73%;
         --color-primary: 258.8, 63.3%, 59.4%;
+        --color-primary-accent: 264, 100%, 98%;
+        --color-gray: 210, 24%, 98%;
         --color-green: 155, 96.8%, 24.3%;
         --color-red: 3.9, 86%, 58%;
     }

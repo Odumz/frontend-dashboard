@@ -1,6 +1,6 @@
 <template>
-  <div class="shadow-lg border rounded p-7 w-full">
-    <div class="card-header flex items-center justify-between">
+  <div class="shadow-xl rounded p-7 w-full">
+    <div class="pb-5 flex items-center justify-between">
       <p class="">
         <slot name="title"></slot>
       </p>
@@ -8,8 +8,8 @@
         <img src="../assets/img/v-ellipsis.svg" alt="action-menu">
       </div>
     </div>
-    <div class="items-center flex justify-around">
-      <div class="stats py-5">
+    <div class="items-center flex justify-between">
+      <div class="stats py5">
         <p class="text-4xl"><slot name="stats"></slot></p>
       </div>
       <slot name="graph"></slot>
