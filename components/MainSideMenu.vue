@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center border-b border-accent w-full gap-6 pr-28 py-3">
+  <div class="flex items-center border-b border-accent w-full xl:gap-6 gap-4 xl:pr-28 lg:pr-20 md:pr-12 pr-5 py-3">
     <div class="button">
       <button class="flex border rounded py-2 px-3">
         <div>

@@ -1,10 +1,10 @@
 <template>
   <div class="">
     <div class="md:flex hidden">
-      <div class="w-2/3 flex justify-start">
+      <div class="xl:w-2/3 lg:w-full flex justify-start">
         <MainMenu />
       </div>
-      <div class="w-1/3 flex justify-end">
+      <div class="xl:w-1/3 lg:w-full flex justify-end">
         <MainSideMenu />
       </div>
     </div>

@@ -26,8 +26,12 @@ module.exports = {
         accent: withOpacity('--color-accent'),
         primary: withOpacity('--color-primary'),
         green: withOpacity('--color-green'),
-        gray: withOpacity('--color-gray'),
+        grey: withOpacity('--color-gray'),
         red: withOpacity('--color-red'),
+        bar: withOpacity('--color-bar'),
+      },
+      width: {
+        "9/10": "90%",
       },
     },
   },
