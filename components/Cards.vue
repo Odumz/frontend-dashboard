@@ -5,7 +5,7 @@
         <slot name="title"></slot>
       </p>
       <div>
-        <img src="~/assets/img/v-ellipsis.svg" alt="action-menu">
+        <SvgIcons name="ellipsis" />
       </div>
     </div>
     <div class="items-center flex justify-between">

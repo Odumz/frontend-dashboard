@@ -5,12 +5,12 @@
       <p class="text-gray-500 text-sm">Track, manage and forecast your customers and orders.</p>
     </div>
     <div class="flex items-center gap-4 justify-around">
-      <button class="flex items-center border rounded border-base justify-center py-2 px-3">
-        <img src="~/assets/img/import.svg" alt="import-icon">
+      <button class="flex items-center border rounded justify-center py-2 px-3">
+        <SvgIcons name="import" />
         <span class="px-3 text-gray-700">Import</span>
       </button>
       <button class="flex items-center justify-center py-2 px-3 bg-primary text-white rounded">
-        <img src="~/assets/img/plus.svg" alt="plus-icon">
+        <SvgIcons name="plus" />
         <span class="px-3">Add</span>
       </button>
     </div>
