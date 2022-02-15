@@ -28,10 +28,10 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
             <th class="px-6 align-middle py-3 text-xs whitespace-nowrap font-medium text-gray-500 text-left">
               License use
             </th>
-            <th class="px-6 lg:block hidden align-middle py-3 text-xs whitespace-nowrap font-medium text-gray-500 text-left">Status</th>
-            <th class="px-6 lg:block hidden align-middle py-3 text-xs whitespace-nowrap font-medium text-gray-500 text-left">Users</th>
-            <th class="px-4 lg:block hidden align-middle py-3 text-xs whitespace-nowrap font-medium text-gray-500 text-left">About </th>
-            <th class="px-4 lg:block hidden align-middle py-3 text-xs whitespace-nowrap font-medium text-gray-500 text-left"></th>
+            <th class="px-6 align-middle py-3 text-xs whitespace-nowrap font-medium text-gray-500 text-left">Status</th>
+            <th class="px-6 align-middle py-3 text-xs whitespace-nowrap font-medium text-gray-500 text-left">Users</th>
+            <th class="px-4 align-middle py-3 text-xs whitespace-nowrap font-medium text-gray-500 text-left">About </th>
+            <th class="px-4 align-middle py-3 text-xs whitespace-nowrap font-medium text-gray-500 text-left"></th>
           </tr>
         </thead>
 
@@ -61,9 +61,9 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 </div>
               </div>
             </td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <span class="bg-green bg-opacity-10 text-green py-1 px-3 rounded-full text-xs">Customer</span></td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <div class="flex">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-1-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-2-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
@@ -71,12 +71,12 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-4-470x470.png" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
               </div>
             </td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
               <p>Content curating app</p>
               <p class="text-gray-500">Brings all your news to one place</p>
               </div>
             </td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
               <div class="flex item-center justify-center">
                   <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -115,9 +115,9 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 </div>
               </div>
             </td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <span class="bg-gray-100 py-1 px-3 rounded-full text-xs">Churned</span></td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <div class="flex">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-1-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-2-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
@@ -125,12 +125,12 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-4-470x470.png" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
               </div>
             </td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
               <p>Content curating app</p>
               <p class="text-gray-500">Brings all your news to one place</p>
               </div>
             </td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
               <div class="flex item-center justify-center">
                   <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -169,9 +169,9 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 </div>
               </div>
             </td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <span class="bg-green bg-opacity-10 text-green py-1 px-3 rounded-full text-xs">Customer</span></td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <div class="flex">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-1-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-2-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
@@ -179,12 +179,12 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-4-470x470.png" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
               </div>
             </td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
               <p>Content curating app</p>
               <p class="text-gray-500">Brings all your news to one place</p>
               </div>
             </td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
               <div class="flex item-center justify-center">
                   <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -218,9 +218,9 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 </div>
               </div>
             </td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <span class="bg-green bg-opacity-10 text-green py-1 px-3 rounded-full text-xs">Customer</span></td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <div class="flex">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-1-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-2-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
@@ -228,12 +228,12 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-4-470x470.png" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
               </div>
             </td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
               <p>Content curating app</p>
               <p class="text-gray-500">Brings all your news to one place</p>
               </div>
             </td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
               <div class="flex item-center justify-center">
                   <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -267,9 +267,9 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 </div>
               </div>
             </td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <span class="bg-gray-100 py-1 px-3 rounded-full text-xs">Churned</span></td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <div class="flex">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-1-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-2-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
@@ -277,12 +277,12 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-4-470x470.png" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
               </div>
             </td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
               <p>Content curating app</p>
               <p class="text-gray-500">Brings all your news to one place</p>
               </div>
             </td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
               <div class="flex item-center justify-center">
                   <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -321,9 +321,9 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 </div>
               </div>
             </td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <span class="bg-green bg-opacity-10 text-green py-1 px-3 rounded-full text-xs">Customer</span></td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <div class="flex">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-1-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-2-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
@@ -331,12 +331,12 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-4-470x470.png" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
               </div>
             </td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
               <p>Content curating app</p>
               <p class="text-gray-500">Brings all your news to one place</p>
               </div>
             </td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
               <div class="flex item-center justify-center">
                   <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -375,9 +375,9 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 </div>
               </div>
             </td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <span class="bg-green bg-opacity-10 text-green py-1 px-3 rounded-full text-xs">Customer</span></td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <div class="flex">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-1-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-2-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
@@ -385,12 +385,12 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-4-470x470.png" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
               </div>
             </td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
               <p>Content curating app</p>
               <p class="text-gray-500">Brings all your news to one place</p>
               </div>
             </td>
-            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
+            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
               <div class="flex item-center justify-center">
                   <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">

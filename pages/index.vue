@@ -64,7 +64,8 @@
       <ListFilter />
     </div>
     <div class="list-items">
-      <ListItems />
+      <ListItems class="hidden lg:flex" />
+      <ListItem class="lg:hidden flex" />
     </div>
   </div>
 </template>
