@@ -15,7 +15,12 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
         <thead class="border-b">
           <tr class="justify-items-center">
             <th class="pl-6 pr-3 align-middle py-3 text-xs border-l-0 border-r-0 whitespace-nowrap font-medium text-gray-500 text-left">
-              <input id="checkbox" type="checkbox" name="">
+              <div class="flex items-center mr-4 mb-2">
+                <input id="list-check" type="checkbox" class="opacity-0 absolute h-5 w-5" checked/>
+                <div class="bg-primary text-primary bg-opacity-20 border-2 rounded-md boder-primary w-5 h-5 flex flex-shrink-0 justify-center items-center mr-2 focus-within:border-primary">
+                  <SvgIcons name="dash" />
+                </div>
+              </div>
             </th>
             <th class="align-middle py-3 text-xs flex items-center whitespace-nowrap font-medium text-gray-500 text-left">
               Company <span><img class="px-2" src="~/assets/img/down-arrow.svg" alt=""></span>
@@ -23,17 +28,24 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
             <th class="px-6 align-middle py-3 text-xs whitespace-nowrap font-medium text-gray-500 text-left">
               License use
             </th>
-            <th class="px-6 align-middle py-3 text-xs whitespace-nowrap font-medium text-gray-500 text-left">Status</th>
-            <th class="px-6 align-middle py-3 text-xs whitespace-nowrap font-medium text-gray-500 text-left">Users</th>
-            <th class="px-6 align-middle py-3 text-xs whitespace-nowrap font-medium text-gray-500 text-left">About </th>
-            <th class="px-6 align-middle py-3 text-xs whitespace-nowrap font-medium text-gray-500 text-left"></th>
+            <th class="px-6 lg:block hidden align-middle py-3 text-xs whitespace-nowrap font-medium text-gray-500 text-left">Status</th>
+            <th class="px-6 lg:block hidden align-middle py-3 text-xs whitespace-nowrap font-medium text-gray-500 text-left">Users</th>
+            <th class="px-4 lg:block hidden align-middle py-3 text-xs whitespace-nowrap font-medium text-gray-500 text-left">About </th>
+            <th class="px-4 lg:block hidden align-middle py-3 text-xs whitespace-nowrap font-medium text-gray-500 text-left"></th>
           </tr>
         </thead>
 
         <tbody>
           <tr class="odd:bg-gray-50">
             <td class="border-t-0 pl-6 pr-3 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-4">
-              <input id="checkbox" type="checkbox" name="" checked>
+              <!-- <input id="checkbox" class="w-5 h-5 border-primary focus:ring-primary  focus:ring-1 bg-primary-accent rounded-md" type="checkbox" name="" checked> -->
+              <!-- <input type="checkbox" class="accent-gray-300 focus:accent-gray-500" checked> -->
+              <div class="flex items-center mr-4 mb-2">
+                <input id="list-check" type="checkbox" class="opacity-0 absolute h-5 w-5" checked/>
+                <div class="bg-primary text-primary bg-opacity-20 border-2 rounded-md boder-primary w-5 h-5 flex flex-shrink-0 justify-center items-center mr-2 focus-within:border-primary">
+                  <SvgIcons name="tick" />
+                </div>
+              </div>
             </td>
             <th class="border-t-0 font-normal align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-4 text-left flex items-center">
               <img class="w-8 h-8" src="~/assets/img/catalogue.svg" alt="catalogue">
@@ -49,9 +61,9 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 </div>
               </div>
             </td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <span class="bg-green bg-opacity-10 text-green py-1 px-3 rounded-full text-xs">Customer</span></td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <div class="flex">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-1-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-2-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
@@ -59,12 +71,12 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-4-470x470.png" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
               </div>
             </td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
               <p>Content curating app</p>
               <p class="text-gray-500">Brings all your news to one place</p>
               </div>
             </td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
               <div class="flex item-center justify-center">
                   <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -82,7 +94,12 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
 
           <tr class="odd:bg-gray-50">
             <td class="border-t-0 pl-6 pr-3 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-4">
-              <input id="checkbox" type="checkbox" name="" checked>
+              <div class="flex items-center mr-4 mb-2">
+                <input id="list-check" type="checkbox" class="opacity-0 absolute h-5 w-5" checked/>
+                <div class="bg-primary text-primary bg-opacity-20 border-2 rounded-md boder-primary w-5 h-5 flex flex-shrink-0 justify-center items-center mr-2 focus-within:border-primary">
+                  <SvgIcons name="tick" />
+                </div>
+              </div>
             </td>
             <th class="border-t-0 font-normal align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-4 text-left flex items-center">
               <img class="w-8 h-8" src="~/assets/img/circooles.svg" alt="catalogue">
@@ -98,9 +115,9 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 </div>
               </div>
             </td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <span class="bg-gray-100 py-1 px-3 rounded-full text-xs">Churned</span></td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <div class="flex">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-1-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-2-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
@@ -108,12 +125,12 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-4-470x470.png" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
               </div>
             </td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
               <p>Content curating app</p>
               <p class="text-gray-500">Brings all your news to one place</p>
               </div>
             </td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
               <div class="flex item-center justify-center">
                   <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -131,7 +148,12 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
 
           <tr class="odd:bg-gray-50">
             <td class="border-t-0 pl-6 pr-3 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-4">
-              <input id="checkbox" type="checkbox" name="" checked>
+              <div class="flex items-center mr-4 mb-2">
+                <input id="list-check" type="checkbox" class="opacity-0 absolute h-5 w-5" checked/>
+                <div class="bg-primary text-primary bg-opacity-20 border-2 rounded-md boder-primary w-5 h-5 flex flex-shrink-0 justify-center items-center mr-2 focus-within:border-primary">
+                  <SvgIcons name="tick" />
+                </div>
+              </div>
             </td>
             <th class="border-t-0 font-normal align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-4 text-left flex items-center">
               <img class="w-8 h-8" src="~/assets/img/commandar.svg" alt="catalogue">
@@ -147,9 +169,9 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 </div>
               </div>
             </td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <span class="bg-green bg-opacity-10 text-green py-1 px-3 rounded-full text-xs">Customer</span></td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <div class="flex">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-1-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-2-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
@@ -157,12 +179,12 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-4-470x470.png" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
               </div>
             </td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
               <p>Content curating app</p>
               <p class="text-gray-500">Brings all your news to one place</p>
               </div>
             </td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
               <div class="flex item-center justify-center">
                   <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -180,7 +202,7 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
 
           <tr class="odd:bg-gray-50">
             <td class="border-t-0 pl-6 pr-3 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-4">
-              <input id="checkbox" type="checkbox" name="">
+              <input id="checkbox" class="w-5 h-5" type="checkbox" name="">
             </td>
             <th class="border-t-0 font-normal align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-4 text-left flex items-center">
               <img class="w-8 h-8" src="~/assets/img/hourglass.svg" alt="catalogue">
@@ -196,9 +218,9 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 </div>
               </div>
             </td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <span class="bg-green bg-opacity-10 text-green py-1 px-3 rounded-full text-xs">Customer</span></td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <div class="flex">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-1-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-2-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
@@ -206,12 +228,12 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-4-470x470.png" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
               </div>
             </td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
               <p>Content curating app</p>
               <p class="text-gray-500">Brings all your news to one place</p>
               </div>
             </td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
               <div class="flex item-center justify-center">
                   <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -229,7 +251,7 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
 
           <tr class="odd:bg-gray-50">
             <td class="border-t-0 pl-6 pr-3 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-4">
-              <input id="checkbox" type="checkbox" name="">
+              <input id="checkbox" class="w-5 h-5" type="checkbox" name="">
             </td>
             <th class="border-t-0 font-normal align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-4 text-left flex items-center">
               <img class="w-8 h-8" src="~/assets/img/layers.svg" alt="catalogue">
@@ -245,9 +267,9 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 </div>
               </div>
             </td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <span class="bg-gray-100 py-1 px-3 rounded-full text-xs">Churned</span></td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <div class="flex">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-1-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-2-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
@@ -255,12 +277,12 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-4-470x470.png" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
               </div>
             </td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
               <p>Content curating app</p>
               <p class="text-gray-500">Brings all your news to one place</p>
               </div>
             </td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
               <div class="flex item-center justify-center">
                   <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -278,7 +300,12 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
 
           <tr class="odd:bg-gray-50">
             <td class="border-t-0 pl-6 pr-3 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-4">
-              <input id="checkbox" type="checkbox" name="" checked>
+              <div class="flex items-center mr-4 mb-2">
+                <input id="list-check" type="checkbox" class="opacity-0 absolute h-5 w-5" checked/>
+                <div class="bg-primary text-primary bg-opacity-20 border-2 rounded-md boder-primary w-5 h-5 flex flex-shrink-0 justify-center items-center mr-2 focus-within:border-primary">
+                  <SvgIcons name="tick" />
+                </div>
+              </div>
             </td>
             <th class="border-t-0 font-normal align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-4 text-left flex items-center">
               <img class="w-8 h-8" src="~/assets/img/quotient.svg" alt="quotient">
@@ -294,9 +321,9 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 </div>
               </div>
             </td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <span class="bg-green bg-opacity-10 text-green py-1 px-3 rounded-full text-xs">Customer</span></td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <div class="flex">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-1-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-2-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
@@ -304,12 +331,12 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-4-470x470.png" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
               </div>
             </td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
               <p>Content curating app</p>
               <p class="text-gray-500">Brings all your news to one place</p>
               </div>
             </td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
               <div class="flex item-center justify-center">
                   <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -327,7 +354,12 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
 
           <tr class="odd:bg-gray-50">
             <td class="border-t-0 pl-6 pr-3 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-4">
-              <input id="checkbox" type="checkbox" name="" checked>
+              <div class="flex items-center mr-4 mb-2">
+                <input id="list-check" type="checkbox" class="opacity-0 absolute h-5 w-5" checked/>
+                <div class="bg-primary text-primary bg-opacity-20 border-2 rounded-md boder-primary w-5 h-5 flex flex-shrink-0 justify-center items-center mr-2 focus-within:border-primary">
+                  <SvgIcons name="tick" />
+                </div>
+              </div>
             </td>
             <th class="border-t-0 font-normal align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-4 text-left flex items-center">
               <img class="w-8 h-8" src="~/assets/img/sisyphus.svg" alt="sisyphus">
@@ -343,9 +375,9 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 </div>
               </div>
             </td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <span class="bg-green bg-opacity-10 text-green py-1 px-3 rounded-full text-xs">Customer</span></td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
               <div class="flex">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-1-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow">
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-2-800x800.jpg" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
@@ -353,12 +385,12 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
                 <img src="https://demos.creative-tim.com/notus-js/assets/img/team-4-470x470.png" alt="..." class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4">
               </div>
             </td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"><div class="items-center">
               <p>Content curating app</p>
               <p class="text-gray-500">Brings all your news to one place</p>
               </div>
             </td>
-            <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
+            <td class="border-t-0 lg:block hidden px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right">
               <div class="flex item-center justify-center">
                   <div class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -375,28 +407,39 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
           </tr>
         </tbody>
       </table>
+        <div class="flex items-center px-6 text-sm text-gray-700 justify-between">
+          <div class="border-t-0 font-normal align-middle border-l-0 border-r-0 whitespace-nowrap py-4 gap-3 text-left flex items-center">
+              <button class="px-3 py-2 border rounded">
+                Previous
+              </button>
+              <button class="px-3 py-2 border rounded">
+                Next
+              </button>
+          </div>
+          <div class="">
+            Page 1 of 10
+          </div>
+        </div>
     </div>
   </div>
 </div>
-    <footer class="relative pt-8 pb-6 mt-8">
-      <div class="container mx-auto px-4">
-        <div class="flex flex-wrap items-center md:justify-between justify-center">
-          <div class="w-full md:w-6/12 px-4 mx-auto text-center">
-            <div class="text-sm text-blueGray-500 font-semibold py-1">
-              Made with <a href="https://www.creative-tim.com/product/notus-js" class="text-blueGray-500 hover:text-gray-800" target="_blank">Notus JS</a> by <a href="https://www.creative-tim.com" class="text-blueGray-500 hover:text-blueGray-800" target="_blank"> Creative Tim</a>.
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
 </section>
 </template>
 
 <script>
 export default {
-  name: "ListItem",
-  setup() {
-
-  },
+    name: "ListItem",
+    setup() {
+    },
 }
 </script>
+
+<style lang="postcss" scoped>
+
+input:checked + div {
+  @apply border-primary;
+}
+input:checked + div svg {
+  @apply block;
+}
+</style>

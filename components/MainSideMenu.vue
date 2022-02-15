@@ -1,9 +1,9 @@
 <template>
-  <div class="flex items-center border-b border-accent w-full xl:gap-6 gap-4 xl:pr-28 lg:pr-20 md:pr-12 pr-5 py-3">
+  <div class="flex items-center border-b border-accent w-full xl:gap-6 gap-4 2xl:pr-28 lg:pr-14">
     <div class="button">
-      <button class="flex border rounded py-2 px-3">
+      <button class="flex items-center border rounded py-2 px-3">
         <div>
-          <img src="~/assets/img/zap.svg" alt="zap-icon">
+          <SvgIcons class="text-gray-500" name="zap" />
         </div>
         <span class="mx-3">
           Upgrade now
@@ -11,13 +11,13 @@
       </button>
     </div>
     <div class="gear">
-     <img src="~/assets/img/gear.svg" alt="settings-icon">
+     <SvgIcons class="text-gray-500" name="gear" />
     </div>
     <div class="bell">
-      <img src="~/assets/img/bell.svg" alt="notifications-icon">
+      <SvgIcons class="text-gray-500" name="bell" />
     </div>
     <div class="profile">
-      <img src="~/assets/img/avatar.svg" alt="user-avatar">
+      <SvgIcons name="avatar" />
     </div>
   </div>
 </template>

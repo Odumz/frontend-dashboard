@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center justify-start border-b border-accent w-full xl:pl-28 lg:pl-20 md:pl-12 pl-5">
+  <div class="flex items-center justify-start border-b border-accent w-full xl:pl-28 lg:pl-14 md:pl-7 pl-4">
     <div class="logo pr-3 py-3">
       <!-- <img src="~/assets/img/logo.svg" class="" alt="logo"> -->
       <SvgIcons name="logo" />

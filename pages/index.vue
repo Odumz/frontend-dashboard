@@ -1,7 +1,7 @@
 <template>
-  <div class="home xl:px-28 lg:px-20 md:px-12 px-5 text-muted">
-    <WelcomeCard />
-    <div class="flex w-full gap-5 my-5">
+  <div class="home xl:px-28 lg:px-14 md:px-7 px-4 text-muted grid">
+    <!-- <WelcomeCard /> -->
+    <div class="grid lg:flex w-full gap-5 my-5">
       <Cards>
         <template #title>
           Total customers
@@ -10,12 +10,12 @@
           2,420
         </template>
         <template #graph>
-          <img src="~/assets/img/total-customers.svg" alt="total-customer-stats">
+          <SvgIcons name="total-customers" />
         </template>
         <template #percentage>
           <p class="flex items-center gap-1 text-green pr-1">
             <span>
-              <img src="~/assets/img/arrow-up.svg" alt="">
+              <SvgIcons name="arrow-up" />
             </span>
             40 %
           </p>
@@ -29,12 +29,12 @@
           1,210
         </template>
         <template #graph>
-          <img src="~/assets/img/members.svg" alt="members">
+          <SvgIcons name="members" />
         </template>
         <template #percentage>
           <p class="flex items-center gap-1 text-red pr-1">
             <span>
-              <img src="~/assets/img/arrow-down.svg" alt="">
+              <SvgIcons name="arrow-down" />
             </span>
             10 %
           </p>
@@ -48,7 +48,7 @@
           316
         </template>
         <template #graph>
-          <img src="~/assets/img/total-customers.svg" alt="total-customer-stats">
+          <SvgIcons name="total-customers" />
         </template>
         <template #percentage>
           <p class="flex items-center gap-1 text-green pr-1">

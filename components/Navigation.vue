@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <div class="md:flex hidden">
+    <div class="lg:flex hidden">
       <div class="xl:w-2/3 lg:w-full flex justify-start">
         <MainMenu />
       </div>
@@ -9,7 +9,7 @@
       </div>
     </div>
 
-    <div class="md:flex hidden">
+    <div class="lg:flex hidden">
       <div class="w-2/3 flex justify-start">
         <SubMenu />
       </div>
@@ -20,7 +20,7 @@
       </div>
     </div>
 
-    <div class="flex md:hidden">
+    <div class="flex lg:hidden">
       <MobileMenu />
     </div>
 
