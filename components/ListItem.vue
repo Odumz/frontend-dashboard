@@ -23,7 +23,7 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
               </div>
             </th>
             <th class="align-middle py-3 text-xs flex items-center whitespace-nowrap font-medium text-gray-500 text-left">
-              Company <span><img class="px-2" src="~/assets/img/down-arrow.svg" alt=""></span>
+              Company <span><SvgIcons name="arrow-down" class="px-2" /></span>
             </th>
             <th class="px-6 align-middle py-3 text-xs whitespace-nowrap font-medium text-gray-500 text-left">
               License use
@@ -48,7 +48,7 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
               </div>
             </td>
             <th class="border-t-0 font-normal align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-4 text-left flex items-center">
-              <img class="w-8 h-8" src="~/assets/img/catalogue.svg" alt="catalogue">
+              <img src="~/assets/img/catalog.svg" alt="catalog">
               <div class="grid">
                 <span class="ml-3 font-medium"> Catalog </span>
                 <span class="ml-3 text-gray-500"> catalogapp.io </span>
@@ -102,7 +102,7 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
               </div>
             </td>
             <th class="border-t-0 font-normal align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-4 text-left flex items-center">
-              <img class="w-8 h-8" src="~/assets/img/circooles.svg" alt="catalogue">
+              <img src="~/assets/img/circooles.svg" alt="circooles">
               <div class="grid">
                 <span class="ml-3 font-medium"> Circooles </span>
                 <span class="ml-3 text-gray-500"> getcircooles.com </span>

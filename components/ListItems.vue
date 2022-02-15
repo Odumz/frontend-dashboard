@@ -48,7 +48,7 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
               </div>
             </td>
             <th class="border-t-0 font-normal align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-4 text-left flex items-center">
-              <img class="w-8 h-8" src="~/assets/img/catalogue.svg" alt="catalogue">
+              <SvgIcons name="catalog" />
               <div class="grid">
                 <span class="ml-3 font-medium"> Catalog </span>
                 <span class="ml-3 text-gray-500"> catalogapp.io </span>
@@ -102,7 +102,7 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
               </div>
             </td>
             <th class="border-t-0 font-normal align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-4 text-left flex items-center">
-              <img class="w-8 h-8" src="~/assets/img/circooles.svg" alt="catalogue">
+              <SvgIcons name="circooles" />
               <div class="grid">
                 <span class="ml-3 font-medium"> Circooles </span>
                 <span class="ml-3 text-gray-500"> getcircooles.com </span>
@@ -156,7 +156,7 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
               </div>
             </td>
             <th class="border-t-0 font-normal align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-4 text-left flex items-center">
-              <img class="w-8 h-8" src="~/assets/img/commandar.svg" alt="catalogue">
+              <SvgIcons name="commandar" />
               <div class="grid">
                 <span class="ml-3 font-medium"> Command+R </span>
                 <span class="ml-3 text-gray-500"> cmdr.ai </span>
@@ -205,7 +205,7 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
               <input id="checkbox" class="w-5 h-5" type="checkbox" name="">
             </td>
             <th class="border-t-0 font-normal align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-4 text-left flex items-center">
-              <img class="w-8 h-8" src="~/assets/img/hourglass.svg" alt="catalogue">
+              <img src="~/assets/img/hourglass.svg" alt="hourglass">
               <div class="grid">
                 <span class="ml-3 font-medium"> Hourglass </span>
                 <span class="ml-3 text-gray-500"> hourglass.app </span>
@@ -254,7 +254,7 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
               <input id="checkbox" class="w-5 h-5" type="checkbox" name="">
             </td>
             <th class="border-t-0 font-normal align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-4 text-left flex items-center">
-              <img class="w-8 h-8" src="~/assets/img/layers.svg" alt="catalogue">
+              <SvgIcons name="layers" />
               <div class="grid">
                 <span class="ml-3 font-medium"> Layers </span>
                 <span class="ml-3 text-gray-500"> getlayers.io </span>
@@ -308,7 +308,7 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
               </div>
             </td>
             <th class="border-t-0 font-normal align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-4 text-left flex items-center">
-              <img class="w-8 h-8" src="~/assets/img/quotient.svg" alt="quotient">
+              <SvgIcons name="quotient" />
               <div class="grid">
                 <span class="ml-3 font-medium"> Quotient </span>
                 <span class="ml-3 text-gray-500"> quotient.co </span>
@@ -362,7 +362,7 @@ class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
               </div>
             </td>
             <th class="border-t-0 font-normal align-middle border-l-0 border-r-0 text-xs whitespace-nowrap py-4 text-left flex items-center">
-              <img class="w-8 h-8" src="~/assets/img/sisyphus.svg" alt="sisyphus">
+              <SvgIcons name="sisyphus" />
               <div class="grid">
                 <span class="ml-3 font-medium"> Sisyphus </span>
                 <span class="ml-3 text-gray-500"> sisyphus.com </span>
